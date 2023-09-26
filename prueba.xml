@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LigaBBVAMX [
+        <!ELEMENT LigaBBVAMX (Fecha, Partidos)>
+        <!ELEMENT Fecha (#PCDATA)>
+        <!ELEMENT Partidos (Partido*)>
+        <!ELEMENT Partido (Equipos, Marcador, Anotadores)>
+        <!ELEMENT Equipos (Local, Visitante)>
+        <!ELEMENT Local (#PCDATA)>
+        <!ELEMENT Visitante (#PCDATA)>
+        <!ELEMENT Marcador (#PCDATA)>
+        <!ELEMENT Anotadores (Anotador*)>
+        <!ELEMENT Anotador (Nombre, Minuto)>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Minuto (#PCDATA)>
+        ]>
+<LigaBBVAMX>
+    <Fecha>Domingo 24 de Septiembre 2023</Fecha>
+    <Partidos>
+        <Partido>
+            <Equipos>
+                <Local>Toluca</Local>
+                <Visitante>America</Visitante>
+            </Equipos>
+            <Marcador>1-1</Marcador>
+            <Anotadores>
+                <Anotador>
+                    <Nombre>Diego Valdes</Nombre>
+                    <Minuto>25'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Maximiliano</Nombre>
+                    <Minuto>54'</Minuto>
+                </Anotador>
+            </Anotadores>
+        </Partido>
+        <Partido>
+            <Equipos>
+                <Local>Cruz Azul</Local>
+                <Visitante>Queretaro</Visitante>
+            </Equipos>
+            <Marcador>1-3</Marcador>
+            <Anotadores>
+                <Anotador>
+                    <Nombre>Carlos Rodolfo Rotondi</Nombre>
+                    <Minuto>45+5'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Raul Martin Sandoval</Nombre>
+                    <Minuto>50'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Jose Raul Zuñiga Murillo</Nombre>
+                    <Minuto>77'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Nicolas Cordero</Nombre>
+                    <Minuto>87'</Minuto>
+                </Anotador>
+            </Anotadores>
+        </Partido>
+        <Partido>
+            <Equipos>
+                <Local>Santos</Local>
+                <Visitante>Necaxa</Visitante>
+            </Equipos>
+            <Marcador>2-5</Marcador>
+            <Anotadores>
+                <Anotador>
+                    <Nombre>Alejandro Andrade Rivera</Nombre>
+                    <Minuto>32'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Ricardo Saul Monreal Morales</Nombre>
+                    <Minuto>49'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Alejandro Andrade Rivera</Nombre>
+                    <Minuto>52'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Fernando Arce Juarez</Nombre>
+                    <Minuto>64'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Alexis Francisco Peña</Nombre>
+                    <Minuto>67'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Harold Preciado</Nombre>
+                    <Minuto>69'</Minuto>
+                </Anotador>
+                <Anotador>
+                    <Nombre>Harold Preciado</Nombre>
+                    <Minuto>83'</Minuto>
+                </Anotador>
+            </Anotadores>
+        </Partido>
+    </Partidos>
+</LigaBBVAMX>

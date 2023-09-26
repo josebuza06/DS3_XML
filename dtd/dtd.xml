@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados [
+        <!ELEMENT resultados (partido)>
+        <!ELEMENT partido (equipoLocal, equipoVisitante, marcador, golesLocal)>
+        <!ATTLIST partido
+                fecha CDATA #REQUIRED>
+        <!ELEMENT equipoLocal (#PCDATA)>
+        <!ELEMENT equipoVisitante (#PCDATA)>
+        <!ELEMENT marcador (#PCDATA)>
+        <!ELEMENT golesLocal (gol+)>
+        <!ELEMENT gol (jugador, minuto)>
+        <!ATTLIST gol
+                jugador CDATA #REQUIRED>
+        <!ATTLIST gol
+                minuto CDATA #REQUIRED>
+        ]>
